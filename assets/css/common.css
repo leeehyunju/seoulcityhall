@@ -1,0 +1,84 @@
+.blind{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    margin: -1px;
+}
+
+/* scroll 안생기게 해주는 코드 */
+.scroll-hidden{
+    overflow: hidden;
+}
+
+
+
+
+
+
+/* 스프라이트 이미지 쓰는법 */
+#footer .group-bottom .qna::before,
+.sc-slide .control .btn.prev::after,
+.sc-slide .control .btn.next::after,
+.sc-news .btn-all::before,
+.sc-board .more::after,
+#header .search .btn-search::before,
+#header .logo a::before
+{
+    background-image: url(../images/sp-bg1.png);
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+
+
+.sc-service .service-item .icon::after,
+.sc-service .service-item .icon .ic-public::after
+{
+    background-image: url(../images/sp-bg2.png);
+    background-repeat: no-repeat;
+    background-size: 1260px 60px;
+}
+
+
+.sc-seoul-sns .seoul-sns-item .icon::before
+{
+    background-image: url(../images/sp-bg4.png);
+    background-repeat: no-repeat;
+    background-size: 280px 40px;
+}
+
+
+.sc-slide .content.citizen .title a::before,
+.sc-slide .content.news .title a::before,
+.c-engagement .on .ic-news::before,
+.main-news .on .ic-news::before
+{
+    background-image: url(../images/sp-bg5.png);
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+
+
+#footer .group-top .policy-list .kakao::before
+{
+    background-image: url(../images/sp-bg6.png);
+    background-repeat: no-repeat;
+    background-size: 295px 60px;
+}
+
+
+.sc-info .info-list [class*="ic-"]::before
+{
+    background-image: url(../images/sp-bg7.png);
+    background-repeat: no-repeat;
+    background-size: 315px 315px;
+}
+
+
+
+
+
+
+
+

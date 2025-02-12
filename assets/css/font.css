@@ -1,0 +1,35 @@
+
+
+
+
+/* eot
+
+   woff2 - 최대 20%~50% 압축이 되어있는 더 가벼운 최적화된 폰트 (가장좋음)
+   woff - 최적화가 되어있는 웹폰트
+   otf - 디자인작업용 폰트 (구형브라우저 지원)  openType
+   ttf - 디자인작업용 폰트 (구형브라우저 지원)
+
+*/
+
+
+@font-face {
+    font-family: 'Nanum Gothic';
+    src:    url('https://www.seoul.go.kr/res_newseoul/fonts/NanumGothic-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+            url('https://www.seoul.go.kr/res_newseoul/fonts/NanumGothic-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+            url('https://www.seoul.go.kr/res_newseoul/fonts/NanumGothic-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-weight: 400
+}
+@font-face {
+    font-family: 'Nanum Gothic';
+    src:    url('https://www.seoul.go.kr/res_newseoul/fonts/NanumGothic-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+            url('https://www.seoul.go.kr/res_newseoul/fonts/NanumGothic-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+            url('https://www.seoul.go.kr/res_newseoul/fonts/NanumGothic-Bold.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-weight: 700
+}
+@font-face {
+    font-family: 'Nanum Gothic';
+    src:    url('https://www.seoul.go.kr/res_newseoul/fonts/NanumGothic-ExtraBold.woff2') format('woff2'), /* Super Modern Browsers */
+            url('https://www.seoul.go.kr/res_newseoul/fonts/NanumGothic-ExtraBold.woff') format('woff'), /* Pretty Modern Browsers */
+            url('https://www.seoul.go.kr/res_newseoul/fonts/NanumGothic-ExtraBold.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-weight: 800
+}

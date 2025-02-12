@@ -1,0 +1,23 @@
+*{margin:0;padding:0;font:inherit;color:inherit;}
+*, :after, :before {box-sizing:border-box;}
+html, body {height:100%;}
+img, picture, video, canvas, svg {display: block;max-width:100%;}
+button {background:none;border:0;cursor:pointer;}
+fieldset{border: 0;}
+a {text-decoration:none}
+table {border-collapse:collapse;border-spacing:0}
+ul,ol{list-style: none;}
+
+
+
+body{
+    font-family: "Nanum Gothic", -apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    color: #222;
+    font-weight: 400;
+    letter-spacing: -0.05em;
+}
+
+/* 포커스 됬을때 색깔 */
+:focus-visible {outline: 3px dotted red;}
